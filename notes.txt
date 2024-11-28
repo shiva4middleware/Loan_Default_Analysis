@@ -1,0 +1,19 @@
+# Notes for Loan Default Analysis Project
+
+## Observations
+1. Columns with 100% missing values were dropped automatically during data cleaning.
+2. Data cleaning included:
+   - Handling missing values for key columns like `annual_inc`, `emp_length`, and `loan_amnt`.
+   - Dropping irrelevant columns such as `next_pymnt_d`, `mths_since_last_major_derog`.
+3. Visualizations were used to identify correlations between loan defaults and:
+   - Loan grade (A-G)
+   - Debt-to-income ratio
+   - Employment length
+
+## Further Improvements
+- Include more robust imputation techniques for missing values (e.g., mean, median, or predictive methods).
+- Perform feature engineering to create new metrics from existing data.
+
+## Recommendations for Future Use
+- Automate missing data handling for similar datasets.
+- Use machine learning models for predicting loan default using cleaned data.
